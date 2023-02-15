@@ -11,6 +11,12 @@ def mult(list):
         product = product * list[idx]
     return product
 
+def reverse(list):
+    reversed = []
+    for idx in range(len(list)):
+        reversed.append(list[len(list)-1-idx])
+    return reversed
+
 def main():
     size = int(input("Enter the size of your list: "))
     list = []
