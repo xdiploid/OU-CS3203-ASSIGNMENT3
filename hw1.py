@@ -29,3 +29,7 @@ def main():
     print(f'The sum of elements is {sum_of_list}')
     print(f'The product of elements is {product_of_list}')
     print(f'The reversed list is {reversed_list}')
+
+## The main function will now run and prompt the user to provide information. Afterwards, all of the functions will be
+## and the outputs will be printed to the user.
+main()
